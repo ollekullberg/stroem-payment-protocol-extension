@@ -9,7 +9,7 @@
 
 package io.stroem.paymentprotocol;
 option java_package = "io.stroem.paymentprotocol";
-option java_outer_classname = "StroemProtos";
+option java_outer_classname = "StroemPpProtos";
 
 // Generalized form of "send payment to this/these bitcoin addresses"
 message Output {

@@ -3,8 +3,8 @@
 
 package io.stroem.paymentprotocol;
 
-public final class StroemProtos {
-  private StroemProtos() {}
+public final class StroemPpProtos {
+  private StroemPpProtos() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
   }
@@ -126,14 +126,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Output_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Output_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.Output.class, io.stroem.paymentprotocol.StroemProtos.Output.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.Output.class, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder.class);
     }
 
     public static com.google.protobuf.Parser<Output> PARSER =
@@ -255,53 +255,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Output parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Output parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -310,7 +310,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.Output prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.Output prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -330,20 +330,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Output_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Output_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.Output.class, io.stroem.paymentprotocol.StroemProtos.Output.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.Output.class, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.Output.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.Output.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -376,23 +376,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Output_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Output getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.Output getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Output build() {
-        io.stroem.paymentprotocol.StroemProtos.Output result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.Output build() {
+        io.stroem.paymentprotocol.StroemPpProtos.Output result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Output buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.Output result = new io.stroem.paymentprotocol.StroemProtos.Output(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.Output buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.Output result = new io.stroem.paymentprotocol.StroemPpProtos.Output(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -409,16 +409,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.Output) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.Output)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.Output) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.Output)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.Output other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.Output other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance()) return this;
         if (other.hasAmount()) {
           setAmount(other.getAmount());
         }
@@ -441,11 +441,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.Output parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.Output parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.Output) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.Output) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -606,7 +606,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> 
+    java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> 
         getOutputsList();
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
@@ -615,7 +615,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.Output getOutputs(int index);
+    io.stroem.paymentprotocol.StroemPpProtos.Output getOutputs(int index);
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
      *
@@ -631,7 +631,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+    java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
         getOutputsOrBuilderList();
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
@@ -640,7 +640,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getOutputsOrBuilder(
+    io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getOutputsOrBuilder(
         int index);
 
     // required uint64 time = 3;
@@ -827,10 +827,10 @@ public final class StroemProtos {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                outputs_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemProtos.Output>();
+                outputs_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemPpProtos.Output>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              outputs_.add(input.readMessage(io.stroem.paymentprotocol.StroemProtos.Output.PARSER, extensionRegistry));
+              outputs_.add(input.readMessage(io.stroem.paymentprotocol.StroemPpProtos.Output.PARSER, extensionRegistry));
               break;
             }
             case 24: {
@@ -880,14 +880,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.PaymentDetails.class, io.stroem.paymentprotocol.StroemProtos.PaymentDetails.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.Builder.class);
     }
 
     public static com.google.protobuf.Parser<PaymentDetails> PARSER =
@@ -963,7 +963,7 @@ public final class StroemProtos {
 
     // repeated .io.stroem.paymentprotocol.Output outputs = 2;
     public static final int OUTPUTS_FIELD_NUMBER = 2;
-    private java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> outputs_;
+    private java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> outputs_;
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
      *
@@ -971,7 +971,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> getOutputsList() {
+    public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> getOutputsList() {
       return outputs_;
     }
     /**
@@ -981,7 +981,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    public java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+    public java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
         getOutputsOrBuilderList() {
       return outputs_;
     }
@@ -1002,7 +1002,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.Output getOutputs(int index) {
+    public io.stroem.paymentprotocol.StroemPpProtos.Output getOutputs(int index) {
       return outputs_.get(index);
     }
     /**
@@ -1012,7 +1012,7 @@ public final class StroemProtos {
      * Where payment should be sent
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getOutputsOrBuilder(
+    public io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getOutputsOrBuilder(
         int index) {
       return outputs_.get(index);
     }
@@ -1332,53 +1332,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentDetails parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1387,7 +1387,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.PaymentDetails prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -1403,20 +1403,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.PaymentDetailsOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.PaymentDetailsOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.PaymentDetails.class, io.stroem.paymentprotocol.StroemProtos.PaymentDetails.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.PaymentDetails.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1466,23 +1466,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentDetails getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.PaymentDetails.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentDetails build() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentDetails result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails build() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentDetails buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentDetails result = new io.stroem.paymentprotocol.StroemProtos.PaymentDetails(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails result = new io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -1528,16 +1528,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.PaymentDetails) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.PaymentDetails)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.PaymentDetails other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.PaymentDetails.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails.getDefaultInstance()) return this;
         if (other.hasNetwork()) {
           bitField0_ |= 0x00000001;
           network_ = other.network_;
@@ -1613,11 +1613,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.PaymentDetails parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.PaymentDetails) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.PaymentDetails) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -1727,17 +1727,17 @@ public final class StroemProtos {
       }
 
       // repeated .io.stroem.paymentprotocol.Output outputs = 2;
-      private java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> outputs_ =
+      private java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> outputs_ =
         java.util.Collections.emptyList();
       private void ensureOutputsIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          outputs_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemProtos.Output>(outputs_);
+          outputs_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemPpProtos.Output>(outputs_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> outputsBuilder_;
+          io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> outputsBuilder_;
 
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
@@ -1746,7 +1746,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> getOutputsList() {
+      public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> getOutputsList() {
         if (outputsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(outputs_);
         } else {
@@ -1774,7 +1774,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output getOutputs(int index) {
+      public io.stroem.paymentprotocol.StroemPpProtos.Output getOutputs(int index) {
         if (outputsBuilder_ == null) {
           return outputs_.get(index);
         } else {
@@ -1789,7 +1789,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder setOutputs(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output value) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (outputsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1810,7 +1810,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder setOutputs(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (outputsBuilder_ == null) {
           ensureOutputsIsMutable();
           outputs_.set(index, builderForValue.build());
@@ -1827,7 +1827,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public Builder addOutputs(io.stroem.paymentprotocol.StroemProtos.Output value) {
+      public Builder addOutputs(io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (outputsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1848,7 +1848,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addOutputs(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output value) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (outputsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1869,7 +1869,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addOutputs(
-          io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (outputsBuilder_ == null) {
           ensureOutputsIsMutable();
           outputs_.add(builderForValue.build());
@@ -1887,7 +1887,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addOutputs(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (outputsBuilder_ == null) {
           ensureOutputsIsMutable();
           outputs_.add(index, builderForValue.build());
@@ -1905,7 +1905,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addAllOutputs(
-          java.lang.Iterable<? extends io.stroem.paymentprotocol.StroemProtos.Output> values) {
+          java.lang.Iterable<? extends io.stroem.paymentprotocol.StroemPpProtos.Output> values) {
         if (outputsBuilder_ == null) {
           ensureOutputsIsMutable();
           super.addAll(values, outputs_);
@@ -1956,7 +1956,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder getOutputsBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder getOutputsBuilder(
           int index) {
         return getOutputsFieldBuilder().getBuilder(index);
       }
@@ -1967,7 +1967,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getOutputsOrBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getOutputsOrBuilder(
           int index) {
         if (outputsBuilder_ == null) {
           return outputs_.get(index);  } else {
@@ -1981,7 +1981,7 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+      public java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
            getOutputsOrBuilderList() {
         if (outputsBuilder_ != null) {
           return outputsBuilder_.getMessageOrBuilderList();
@@ -1996,9 +1996,9 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder addOutputsBuilder() {
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder addOutputsBuilder() {
         return getOutputsFieldBuilder().addBuilder(
-            io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance());
+            io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance());
       }
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
@@ -2007,10 +2007,10 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder addOutputsBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder addOutputsBuilder(
           int index) {
         return getOutputsFieldBuilder().addBuilder(
-            index, io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance());
+            index, io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance());
       }
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output outputs = 2;</code>
@@ -2019,16 +2019,16 @@ public final class StroemProtos {
        * Where payment should be sent
        * </pre>
        */
-      public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output.Builder> 
+      public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output.Builder> 
            getOutputsBuilderList() {
         return getOutputsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+          io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
           getOutputsFieldBuilder() {
         if (outputsBuilder_ == null) {
           outputsBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder>(
+              io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder>(
                   outputs_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
@@ -2631,14 +2631,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.PaymentRequest.class, io.stroem.paymentprotocol.StroemProtos.PaymentRequest.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.Builder.class);
     }
 
     public static com.google.protobuf.Parser<PaymentRequest> PARSER =
@@ -2879,53 +2879,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentRequest parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2934,7 +2934,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.PaymentRequest prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -2950,20 +2950,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.PaymentRequestOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.PaymentRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.PaymentRequest.class, io.stroem.paymentprotocol.StroemProtos.PaymentRequest.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.PaymentRequest.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3002,23 +3002,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentRequest getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.PaymentRequest.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentRequest build() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentRequest result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest build() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentRequest buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentRequest result = new io.stroem.paymentprotocol.StroemProtos.PaymentRequest(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest result = new io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -3047,16 +3047,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.PaymentRequest) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.PaymentRequest)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.PaymentRequest other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.PaymentRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest.getDefaultInstance()) return this;
         if (other.hasPaymentDetailsVersion()) {
           setPaymentDetailsVersion(other.getPaymentDetailsVersion());
         }
@@ -3090,11 +3090,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.PaymentRequest parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.PaymentRequest) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.PaymentRequest) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -3508,14 +3508,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.X509Certificates.class, io.stroem.paymentprotocol.StroemProtos.X509Certificates.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.class, io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.Builder.class);
     }
 
     public static com.google.protobuf.Parser<X509Certificates> PARSER =
@@ -3616,53 +3616,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.X509Certificates parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3671,7 +3671,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.X509Certificates prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.X509Certificates prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -3687,20 +3687,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.X509CertificatesOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.X509CertificatesOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.X509Certificates.class, io.stroem.paymentprotocol.StroemProtos.X509Certificates.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.class, io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.X509Certificates.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3731,23 +3731,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_X509Certificates_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.X509Certificates getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.X509Certificates.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.X509Certificates getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.X509Certificates build() {
-        io.stroem.paymentprotocol.StroemProtos.X509Certificates result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.X509Certificates build() {
+        io.stroem.paymentprotocol.StroemPpProtos.X509Certificates result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.X509Certificates buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.X509Certificates result = new io.stroem.paymentprotocol.StroemProtos.X509Certificates(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.X509Certificates buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.X509Certificates result = new io.stroem.paymentprotocol.StroemPpProtos.X509Certificates(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) == 0x00000001)) {
           certificate_ = java.util.Collections.unmodifiableList(certificate_);
@@ -3759,16 +3759,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.X509Certificates) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.X509Certificates)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.X509Certificates) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.X509Certificates)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.X509Certificates other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.X509Certificates.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.X509Certificates other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.X509Certificates.getDefaultInstance()) return this;
         if (!other.certificate_.isEmpty()) {
           if (certificate_.isEmpty()) {
             certificate_ = other.certificate_;
@@ -3791,11 +3791,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.X509Certificates parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.X509Certificates parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.X509Certificates) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.X509Certificates) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -3972,7 +3972,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> 
+    java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> 
         getRefundToList();
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
@@ -3981,7 +3981,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.Output getRefundTo(int index);
+    io.stroem.paymentprotocol.StroemPpProtos.Output getRefundTo(int index);
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
      *
@@ -3997,7 +3997,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+    java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
         getRefundToOrBuilderList();
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
@@ -4006,7 +4006,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getRefundToOrBuilder(
+    io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getRefundToOrBuilder(
         int index);
 
     // optional string memo = 4;
@@ -4102,10 +4102,10 @@ public final class StroemProtos {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-                refundTo_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemProtos.Output>();
+                refundTo_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemPpProtos.Output>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              refundTo_.add(input.readMessage(io.stroem.paymentprotocol.StroemProtos.Output.PARSER, extensionRegistry));
+              refundTo_.add(input.readMessage(io.stroem.paymentprotocol.StroemPpProtos.Output.PARSER, extensionRegistry));
               break;
             }
             case 34: {
@@ -4133,14 +4133,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Payment_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Payment_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.Payment.class, io.stroem.paymentprotocol.StroemProtos.Payment.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.Payment.class, io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder.class);
     }
 
     public static com.google.protobuf.Parser<Payment> PARSER =
@@ -4220,7 +4220,7 @@ public final class StroemProtos {
 
     // repeated .io.stroem.paymentprotocol.Output refund_to = 3;
     public static final int REFUND_TO_FIELD_NUMBER = 3;
-    private java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> refundTo_;
+    private java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> refundTo_;
     /**
      * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
      *
@@ -4228,7 +4228,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> getRefundToList() {
+    public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> getRefundToList() {
       return refundTo_;
     }
     /**
@@ -4238,7 +4238,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    public java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+    public java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
         getRefundToOrBuilderList() {
       return refundTo_;
     }
@@ -4259,7 +4259,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.Output getRefundTo(int index) {
+    public io.stroem.paymentprotocol.StroemPpProtos.Output getRefundTo(int index) {
       return refundTo_.get(index);
     }
     /**
@@ -4269,7 +4269,7 @@ public final class StroemProtos {
      * Where to send refunds, if a refund is necessary
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getRefundToOrBuilder(
+    public io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getRefundToOrBuilder(
         int index) {
       return refundTo_.get(index);
     }
@@ -4407,53 +4407,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.Payment parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.Payment parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4462,7 +4462,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.Payment prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.Payment prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -4478,20 +4478,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Payment_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Payment_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.Payment.class, io.stroem.paymentprotocol.StroemProtos.Payment.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.Payment.class, io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.Payment.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.Payment.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4533,23 +4533,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_Payment_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Payment getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.Payment getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Payment build() {
-        io.stroem.paymentprotocol.StroemProtos.Payment result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.Payment build() {
+        io.stroem.paymentprotocol.StroemPpProtos.Payment result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.Payment buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.Payment result = new io.stroem.paymentprotocol.StroemProtos.Payment(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.Payment buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.Payment result = new io.stroem.paymentprotocol.StroemPpProtos.Payment(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -4580,16 +4580,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.Payment) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.Payment)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.Payment) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.Payment)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.Payment other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.Payment other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance()) return this;
         if (other.hasMerchantData()) {
           setMerchantData(other.getMerchantData());
         }
@@ -4652,11 +4652,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.Payment parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.Payment parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.Payment) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.Payment) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -4820,17 +4820,17 @@ public final class StroemProtos {
       }
 
       // repeated .io.stroem.paymentprotocol.Output refund_to = 3;
-      private java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> refundTo_ =
+      private java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> refundTo_ =
         java.util.Collections.emptyList();
       private void ensureRefundToIsMutable() {
         if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-          refundTo_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemProtos.Output>(refundTo_);
+          refundTo_ = new java.util.ArrayList<io.stroem.paymentprotocol.StroemPpProtos.Output>(refundTo_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> refundToBuilder_;
+          io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> refundToBuilder_;
 
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
@@ -4839,7 +4839,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output> getRefundToList() {
+      public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output> getRefundToList() {
         if (refundToBuilder_ == null) {
           return java.util.Collections.unmodifiableList(refundTo_);
         } else {
@@ -4867,7 +4867,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output getRefundTo(int index) {
+      public io.stroem.paymentprotocol.StroemPpProtos.Output getRefundTo(int index) {
         if (refundToBuilder_ == null) {
           return refundTo_.get(index);
         } else {
@@ -4882,7 +4882,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder setRefundTo(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output value) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (refundToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4903,7 +4903,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder setRefundTo(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (refundToBuilder_ == null) {
           ensureRefundToIsMutable();
           refundTo_.set(index, builderForValue.build());
@@ -4920,7 +4920,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public Builder addRefundTo(io.stroem.paymentprotocol.StroemProtos.Output value) {
+      public Builder addRefundTo(io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (refundToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4941,7 +4941,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addRefundTo(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output value) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output value) {
         if (refundToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4962,7 +4962,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addRefundTo(
-          io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (refundToBuilder_ == null) {
           ensureRefundToIsMutable();
           refundTo_.add(builderForValue.build());
@@ -4980,7 +4980,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addRefundTo(
-          int index, io.stroem.paymentprotocol.StroemProtos.Output.Builder builderForValue) {
+          int index, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder builderForValue) {
         if (refundToBuilder_ == null) {
           ensureRefundToIsMutable();
           refundTo_.add(index, builderForValue.build());
@@ -4998,7 +4998,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder addAllRefundTo(
-          java.lang.Iterable<? extends io.stroem.paymentprotocol.StroemProtos.Output> values) {
+          java.lang.Iterable<? extends io.stroem.paymentprotocol.StroemPpProtos.Output> values) {
         if (refundToBuilder_ == null) {
           ensureRefundToIsMutable();
           super.addAll(values, refundTo_);
@@ -5049,7 +5049,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder getRefundToBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder getRefundToBuilder(
           int index) {
         return getRefundToFieldBuilder().getBuilder(index);
       }
@@ -5060,7 +5060,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder getRefundToOrBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder getRefundToOrBuilder(
           int index) {
         if (refundToBuilder_ == null) {
           return refundTo_.get(index);  } else {
@@ -5074,7 +5074,7 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public java.util.List<? extends io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+      public java.util.List<? extends io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
            getRefundToOrBuilderList() {
         if (refundToBuilder_ != null) {
           return refundToBuilder_.getMessageOrBuilderList();
@@ -5089,9 +5089,9 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder addRefundToBuilder() {
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder addRefundToBuilder() {
         return getRefundToFieldBuilder().addBuilder(
-            io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance());
+            io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance());
       }
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
@@ -5100,10 +5100,10 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Output.Builder addRefundToBuilder(
+      public io.stroem.paymentprotocol.StroemPpProtos.Output.Builder addRefundToBuilder(
           int index) {
         return getRefundToFieldBuilder().addBuilder(
-            index, io.stroem.paymentprotocol.StroemProtos.Output.getDefaultInstance());
+            index, io.stroem.paymentprotocol.StroemPpProtos.Output.getDefaultInstance());
       }
       /**
        * <code>repeated .io.stroem.paymentprotocol.Output refund_to = 3;</code>
@@ -5112,16 +5112,16 @@ public final class StroemProtos {
        * Where to send refunds, if a refund is necessary
        * </pre>
        */
-      public java.util.List<io.stroem.paymentprotocol.StroemProtos.Output.Builder> 
+      public java.util.List<io.stroem.paymentprotocol.StroemPpProtos.Output.Builder> 
            getRefundToBuilderList() {
         return getRefundToFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder> 
+          io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder> 
           getRefundToFieldBuilder() {
         if (refundToBuilder_ == null) {
           refundToBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.stroem.paymentprotocol.StroemProtos.Output, io.stroem.paymentprotocol.StroemProtos.Output.Builder, io.stroem.paymentprotocol.StroemProtos.OutputOrBuilder>(
+              io.stroem.paymentprotocol.StroemPpProtos.Output, io.stroem.paymentprotocol.StroemPpProtos.Output.Builder, io.stroem.paymentprotocol.StroemPpProtos.OutputOrBuilder>(
                   refundTo_,
                   ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
@@ -5259,7 +5259,7 @@ public final class StroemProtos {
      * Payment message that triggered this ACK
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.Payment getPayment();
+    io.stroem.paymentprotocol.StroemPpProtos.Payment getPayment();
     /**
      * <code>required .io.stroem.paymentprotocol.Payment payment = 1;</code>
      *
@@ -5267,7 +5267,7 @@ public final class StroemProtos {
      * Payment message that triggered this ACK
      * </pre>
      */
-    io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder getPaymentOrBuilder();
+    io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder getPaymentOrBuilder();
 
     // optional string memo = 2;
     /**
@@ -5348,11 +5348,11 @@ public final class StroemProtos {
               break;
             }
             case 10: {
-              io.stroem.paymentprotocol.StroemProtos.Payment.Builder subBuilder = null;
+              io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) == 0x00000001)) {
                 subBuilder = payment_.toBuilder();
               }
-              payment_ = input.readMessage(io.stroem.paymentprotocol.StroemProtos.Payment.PARSER, extensionRegistry);
+              payment_ = input.readMessage(io.stroem.paymentprotocol.StroemPpProtos.Payment.PARSER, extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(payment_);
                 payment_ = subBuilder.buildPartial();
@@ -5379,14 +5379,14 @@ public final class StroemProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_fieldAccessorTable
+      return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.stroem.paymentprotocol.StroemProtos.PaymentACK.class, io.stroem.paymentprotocol.StroemProtos.PaymentACK.Builder.class);
+              io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.Builder.class);
     }
 
     public static com.google.protobuf.Parser<PaymentACK> PARSER =
@@ -5407,7 +5407,7 @@ public final class StroemProtos {
     private int bitField0_;
     // required .io.stroem.paymentprotocol.Payment payment = 1;
     public static final int PAYMENT_FIELD_NUMBER = 1;
-    private io.stroem.paymentprotocol.StroemProtos.Payment payment_;
+    private io.stroem.paymentprotocol.StroemPpProtos.Payment payment_;
     /**
      * <code>required .io.stroem.paymentprotocol.Payment payment = 1;</code>
      *
@@ -5425,7 +5425,7 @@ public final class StroemProtos {
      * Payment message that triggered this ACK
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.Payment getPayment() {
+    public io.stroem.paymentprotocol.StroemPpProtos.Payment getPayment() {
       return payment_;
     }
     /**
@@ -5435,7 +5435,7 @@ public final class StroemProtos {
      * Payment message that triggered this ACK
      * </pre>
      */
-    public io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder getPaymentOrBuilder() {
+    public io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder getPaymentOrBuilder() {
       return payment_;
     }
 
@@ -5495,7 +5495,7 @@ public final class StroemProtos {
     }
 
     private void initFields() {
-      payment_ = io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance();
+      payment_ = io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance();
       memo_ = "";
     }
     private byte memoizedIsInitialized = -1;
@@ -5553,53 +5553,53 @@ public final class StroemProtos {
       return super.writeReplace();
     }
 
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(byte[] data)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseDelimitedFrom(java.io.InputStream input)
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseDelimitedFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.stroem.paymentprotocol.StroemProtos.PaymentACK parseFrom(
+    public static io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5608,7 +5608,7 @@ public final class StroemProtos {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(io.stroem.paymentprotocol.StroemProtos.PaymentACK prototype) {
+    public static Builder newBuilder(io.stroem.paymentprotocol.StroemPpProtos.PaymentACK prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
@@ -5624,20 +5624,20 @@ public final class StroemProtos {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements io.stroem.paymentprotocol.StroemProtos.PaymentACKOrBuilder {
+       implements io.stroem.paymentprotocol.StroemPpProtos.PaymentACKOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_fieldAccessorTable
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.stroem.paymentprotocol.StroemProtos.PaymentACK.class, io.stroem.paymentprotocol.StroemProtos.PaymentACK.Builder.class);
+                io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.class, io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.Builder.class);
       }
 
-      // Construct using io.stroem.paymentprotocol.StroemProtos.PaymentACK.newBuilder()
+      // Construct using io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5659,7 +5659,7 @@ public final class StroemProtos {
       public Builder clear() {
         super.clear();
         if (paymentBuilder_ == null) {
-          payment_ = io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance();
+          payment_ = io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance();
         } else {
           paymentBuilder_.clear();
         }
@@ -5675,23 +5675,23 @@ public final class StroemProtos {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.stroem.paymentprotocol.StroemProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
+        return io.stroem.paymentprotocol.StroemPpProtos.internal_static_io_stroem_paymentprotocol_PaymentACK_descriptor;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentACK getDefaultInstanceForType() {
-        return io.stroem.paymentprotocol.StroemProtos.PaymentACK.getDefaultInstance();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentACK getDefaultInstanceForType() {
+        return io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.getDefaultInstance();
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentACK build() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentACK result = buildPartial();
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentACK build() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentACK result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.stroem.paymentprotocol.StroemProtos.PaymentACK buildPartial() {
-        io.stroem.paymentprotocol.StroemProtos.PaymentACK result = new io.stroem.paymentprotocol.StroemProtos.PaymentACK(this);
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentACK buildPartial() {
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentACK result = new io.stroem.paymentprotocol.StroemPpProtos.PaymentACK(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -5712,16 +5712,16 @@ public final class StroemProtos {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.stroem.paymentprotocol.StroemProtos.PaymentACK) {
-          return mergeFrom((io.stroem.paymentprotocol.StroemProtos.PaymentACK)other);
+        if (other instanceof io.stroem.paymentprotocol.StroemPpProtos.PaymentACK) {
+          return mergeFrom((io.stroem.paymentprotocol.StroemPpProtos.PaymentACK)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.stroem.paymentprotocol.StroemProtos.PaymentACK other) {
-        if (other == io.stroem.paymentprotocol.StroemProtos.PaymentACK.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.stroem.paymentprotocol.StroemPpProtos.PaymentACK other) {
+        if (other == io.stroem.paymentprotocol.StroemPpProtos.PaymentACK.getDefaultInstance()) return this;
         if (other.hasPayment()) {
           mergePayment(other.getPayment());
         }
@@ -5750,11 +5750,11 @@ public final class StroemProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.stroem.paymentprotocol.StroemProtos.PaymentACK parsedMessage = null;
+        io.stroem.paymentprotocol.StroemPpProtos.PaymentACK parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.stroem.paymentprotocol.StroemProtos.PaymentACK) e.getUnfinishedMessage();
+          parsedMessage = (io.stroem.paymentprotocol.StroemPpProtos.PaymentACK) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -5766,9 +5766,9 @@ public final class StroemProtos {
       private int bitField0_;
 
       // required .io.stroem.paymentprotocol.Payment payment = 1;
-      private io.stroem.paymentprotocol.StroemProtos.Payment payment_ = io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance();
+      private io.stroem.paymentprotocol.StroemPpProtos.Payment payment_ = io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance();
       private com.google.protobuf.SingleFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Payment, io.stroem.paymentprotocol.StroemProtos.Payment.Builder, io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder> paymentBuilder_;
+          io.stroem.paymentprotocol.StroemPpProtos.Payment, io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder, io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder> paymentBuilder_;
       /**
        * <code>required .io.stroem.paymentprotocol.Payment payment = 1;</code>
        *
@@ -5786,7 +5786,7 @@ public final class StroemProtos {
        * Payment message that triggered this ACK
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Payment getPayment() {
+      public io.stroem.paymentprotocol.StroemPpProtos.Payment getPayment() {
         if (paymentBuilder_ == null) {
           return payment_;
         } else {
@@ -5800,7 +5800,7 @@ public final class StroemProtos {
        * Payment message that triggered this ACK
        * </pre>
        */
-      public Builder setPayment(io.stroem.paymentprotocol.StroemProtos.Payment value) {
+      public Builder setPayment(io.stroem.paymentprotocol.StroemPpProtos.Payment value) {
         if (paymentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5821,7 +5821,7 @@ public final class StroemProtos {
        * </pre>
        */
       public Builder setPayment(
-          io.stroem.paymentprotocol.StroemProtos.Payment.Builder builderForValue) {
+          io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder builderForValue) {
         if (paymentBuilder_ == null) {
           payment_ = builderForValue.build();
           onChanged();
@@ -5838,12 +5838,12 @@ public final class StroemProtos {
        * Payment message that triggered this ACK
        * </pre>
        */
-      public Builder mergePayment(io.stroem.paymentprotocol.StroemProtos.Payment value) {
+      public Builder mergePayment(io.stroem.paymentprotocol.StroemPpProtos.Payment value) {
         if (paymentBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001) &&
-              payment_ != io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance()) {
+              payment_ != io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance()) {
             payment_ =
-              io.stroem.paymentprotocol.StroemProtos.Payment.newBuilder(payment_).mergeFrom(value).buildPartial();
+              io.stroem.paymentprotocol.StroemPpProtos.Payment.newBuilder(payment_).mergeFrom(value).buildPartial();
           } else {
             payment_ = value;
           }
@@ -5863,7 +5863,7 @@ public final class StroemProtos {
        */
       public Builder clearPayment() {
         if (paymentBuilder_ == null) {
-          payment_ = io.stroem.paymentprotocol.StroemProtos.Payment.getDefaultInstance();
+          payment_ = io.stroem.paymentprotocol.StroemPpProtos.Payment.getDefaultInstance();
           onChanged();
         } else {
           paymentBuilder_.clear();
@@ -5878,7 +5878,7 @@ public final class StroemProtos {
        * Payment message that triggered this ACK
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.Payment.Builder getPaymentBuilder() {
+      public io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder getPaymentBuilder() {
         bitField0_ |= 0x00000001;
         onChanged();
         return getPaymentFieldBuilder().getBuilder();
@@ -5890,7 +5890,7 @@ public final class StroemProtos {
        * Payment message that triggered this ACK
        * </pre>
        */
-      public io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder getPaymentOrBuilder() {
+      public io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder getPaymentOrBuilder() {
         if (paymentBuilder_ != null) {
           return paymentBuilder_.getMessageOrBuilder();
         } else {
@@ -5905,11 +5905,11 @@ public final class StroemProtos {
        * </pre>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.stroem.paymentprotocol.StroemProtos.Payment, io.stroem.paymentprotocol.StroemProtos.Payment.Builder, io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder> 
+          io.stroem.paymentprotocol.StroemPpProtos.Payment, io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder, io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder> 
           getPaymentFieldBuilder() {
         if (paymentBuilder_ == null) {
           paymentBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.stroem.paymentprotocol.StroemProtos.Payment, io.stroem.paymentprotocol.StroemProtos.Payment.Builder, io.stroem.paymentprotocol.StroemProtos.PaymentOrBuilder>(
+              io.stroem.paymentprotocol.StroemPpProtos.Payment, io.stroem.paymentprotocol.StroemPpProtos.Payment.Builder, io.stroem.paymentprotocol.StroemPpProtos.PaymentOrBuilder>(
                   payment_,
                   getParentForChildren(),
                   isClean());
@@ -6083,8 +6083,8 @@ public final class StroemProtos {
       "\n\trefund_to\030\003 \003(\0132!.io.stroem.paymentpro" +
       "tocol.Output\022\014\n\004memo\030\004 \001(\t\"O\n\nPaymentACK" +
       "\0223\n\007payment\030\001 \002(\0132\".io.stroem.paymentpro" +
-      "tocol.Payment\022\014\n\004memo\030\002 \001(\tB)\n\031io.stroem" +
-      ".paymentprotocolB\014StroemProtos"
+      "tocol.Payment\022\014\n\004memo\030\002 \001(\tB+\n\031io.stroem" +
+      ".paymentprotocolB\016StroemPpProtos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
