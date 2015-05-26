@@ -751,23 +751,23 @@ public final class StroemPpProtos {
      */
     com.google.protobuf.ByteString getMerchantData();
 
-    // optional bytes stroem_data = 100;
+    // optional bytes stroem_message = 1000;
     /**
-     * <code>optional bytes stroem_data = 100;</code>
+     * <code>optional bytes stroem_message = 1000;</code>
      *
      * <pre>
-     * Stroem data
+     * Stroem Message
      * </pre>
      */
-    boolean hasStroemData();
+    boolean hasStroemMessage();
     /**
-     * <code>optional bytes stroem_data = 100;</code>
+     * <code>optional bytes stroem_message = 1000;</code>
      *
      * <pre>
-     * Stroem data
+     * Stroem Message
      * </pre>
      */
-    com.google.protobuf.ByteString getStroemData();
+    com.google.protobuf.ByteString getStroemMessage();
   }
   /**
    * Protobuf type {@code io.stroem.paymentprotocol.PaymentDetails}
@@ -858,9 +858,9 @@ public final class StroemPpProtos {
               merchantData_ = input.readBytes();
               break;
             }
-            case 802: {
+            case 8002: {
               bitField0_ |= 0x00000040;
-              stroemData_ = input.readBytes();
+              stroemMessage_ = input.readBytes();
               break;
             }
           }
@@ -1199,28 +1199,28 @@ public final class StroemPpProtos {
       return merchantData_;
     }
 
-    // optional bytes stroem_data = 100;
-    public static final int STROEM_DATA_FIELD_NUMBER = 100;
-    private com.google.protobuf.ByteString stroemData_;
+    // optional bytes stroem_message = 1000;
+    public static final int STROEM_MESSAGE_FIELD_NUMBER = 1000;
+    private com.google.protobuf.ByteString stroemMessage_;
     /**
-     * <code>optional bytes stroem_data = 100;</code>
+     * <code>optional bytes stroem_message = 1000;</code>
      *
      * <pre>
-     * Stroem data
+     * Stroem Message
      * </pre>
      */
-    public boolean hasStroemData() {
+    public boolean hasStroemMessage() {
       return ((bitField0_ & 0x00000040) == 0x00000040);
     }
     /**
-     * <code>optional bytes stroem_data = 100;</code>
+     * <code>optional bytes stroem_message = 1000;</code>
      *
      * <pre>
-     * Stroem data
+     * Stroem Message
      * </pre>
      */
-    public com.google.protobuf.ByteString getStroemData() {
-      return stroemData_;
+    public com.google.protobuf.ByteString getStroemMessage() {
+      return stroemMessage_;
     }
 
     private void initFields() {
@@ -1231,7 +1231,7 @@ public final class StroemPpProtos {
       memo_ = "";
       paymentUrl_ = "";
       merchantData_ = com.google.protobuf.ByteString.EMPTY;
-      stroemData_ = com.google.protobuf.ByteString.EMPTY;
+      stroemMessage_ = com.google.protobuf.ByteString.EMPTY;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -1277,7 +1277,7 @@ public final class StroemPpProtos {
         output.writeBytes(7, merchantData_);
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
-        output.writeBytes(100, stroemData_);
+        output.writeBytes(1000, stroemMessage_);
       }
       getUnknownFields().writeTo(output);
     }
@@ -1318,7 +1318,7 @@ public final class StroemPpProtos {
       }
       if (((bitField0_ & 0x00000040) == 0x00000040)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(100, stroemData_);
+          .computeBytesSize(1000, stroemMessage_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1455,7 +1455,7 @@ public final class StroemPpProtos {
         bitField0_ = (bitField0_ & ~0x00000020);
         merchantData_ = com.google.protobuf.ByteString.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000040);
-        stroemData_ = com.google.protobuf.ByteString.EMPTY;
+        stroemMessage_ = com.google.protobuf.ByteString.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000080);
         return this;
       }
@@ -1521,7 +1521,7 @@ public final class StroemPpProtos {
         if (((from_bitField0_ & 0x00000080) == 0x00000080)) {
           to_bitField0_ |= 0x00000040;
         }
-        result.stroemData_ = stroemData_;
+        result.stroemMessage_ = stroemMessage_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1588,8 +1588,8 @@ public final class StroemPpProtos {
         if (other.hasMerchantData()) {
           setMerchantData(other.getMerchantData());
         }
-        if (other.hasStroemData()) {
-          setStroemData(other.getStroemData());
+        if (other.hasStroemMessage()) {
+          setStroemMessage(other.getStroemMessage());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -2384,54 +2384,54 @@ public final class StroemPpProtos {
         return this;
       }
 
-      // optional bytes stroem_data = 100;
-      private com.google.protobuf.ByteString stroemData_ = com.google.protobuf.ByteString.EMPTY;
+      // optional bytes stroem_message = 1000;
+      private com.google.protobuf.ByteString stroemMessage_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>optional bytes stroem_data = 100;</code>
+       * <code>optional bytes stroem_message = 1000;</code>
        *
        * <pre>
-       * Stroem data
+       * Stroem Message
        * </pre>
        */
-      public boolean hasStroemData() {
+      public boolean hasStroemMessage() {
         return ((bitField0_ & 0x00000080) == 0x00000080);
       }
       /**
-       * <code>optional bytes stroem_data = 100;</code>
+       * <code>optional bytes stroem_message = 1000;</code>
        *
        * <pre>
-       * Stroem data
+       * Stroem Message
        * </pre>
        */
-      public com.google.protobuf.ByteString getStroemData() {
-        return stroemData_;
+      public com.google.protobuf.ByteString getStroemMessage() {
+        return stroemMessage_;
       }
       /**
-       * <code>optional bytes stroem_data = 100;</code>
+       * <code>optional bytes stroem_message = 1000;</code>
        *
        * <pre>
-       * Stroem data
+       * Stroem Message
        * </pre>
        */
-      public Builder setStroemData(com.google.protobuf.ByteString value) {
+      public Builder setStroemMessage(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000080;
-        stroemData_ = value;
+        stroemMessage_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional bytes stroem_data = 100;</code>
+       * <code>optional bytes stroem_message = 1000;</code>
        *
        * <pre>
-       * Stroem data
+       * Stroem Message
        * </pre>
        */
-      public Builder clearStroemData() {
+      public Builder clearStroemMessage() {
         bitField0_ = (bitField0_ & ~0x00000080);
-        stroemData_ = getDefaultInstance().getStroemData();
+        stroemMessage_ = getDefaultInstance().getStroemMessage();
         onChanged();
         return this;
       }
@@ -6068,23 +6068,23 @@ public final class StroemPpProtos {
     java.lang.String[] descriptorData = {
       "\n\037src/StroemPaymentProtocol.proto\022\031io.st" +
       "roem.paymentprotocol\"+\n\006Output\022\021\n\006amount" +
-      "\030\001 \001(\004:\0010\022\016\n\006script\030\002 \002(\014\"\311\001\n\016PaymentDet" +
+      "\030\001 \001(\004:\0010\022\016\n\006script\030\002 \002(\014\"\315\001\n\016PaymentDet" +
       "ails\022\025\n\007network\030\001 \001(\t:\004main\0222\n\007outputs\030\002" +
       " \003(\0132!.io.stroem.paymentprotocol.Output\022" +
       "\014\n\004time\030\003 \002(\004\022\017\n\007expires\030\004 \001(\004\022\014\n\004memo\030\005" +
       " \001(\t\022\023\n\013payment_url\030\006 \001(\t\022\025\n\rmerchant_da" +
-      "ta\030\007 \001(\014\022\023\n\013stroem_data\030d \001(\014\"\225\001\n\016Paymen" +
-      "tRequest\022\"\n\027payment_details_version\030\001 \001(" +
-      "\r:\0011\022\026\n\010pki_type\030\002 \001(\t:\004none\022\020\n\010pki_data",
-      "\030\003 \001(\014\022\"\n\032serialized_payment_details\030\004 \002" +
-      "(\014\022\021\n\tsignature\030\005 \001(\014\"\'\n\020X509Certificate" +
-      "s\022\023\n\013certificate\030\001 \003(\014\"z\n\007Payment\022\025\n\rmer" +
-      "chant_data\030\001 \001(\014\022\024\n\014transactions\030\002 \003(\014\0224" +
-      "\n\trefund_to\030\003 \003(\0132!.io.stroem.paymentpro" +
-      "tocol.Output\022\014\n\004memo\030\004 \001(\t\"O\n\nPaymentACK" +
-      "\0223\n\007payment\030\001 \002(\0132\".io.stroem.paymentpro" +
-      "tocol.Payment\022\014\n\004memo\030\002 \001(\tB+\n\031io.stroem" +
-      ".paymentprotocolB\016StroemPpProtos"
+      "ta\030\007 \001(\014\022\027\n\016stroem_message\030\350\007 \001(\014\"\225\001\n\016Pa" +
+      "ymentRequest\022\"\n\027payment_details_version\030" +
+      "\001 \001(\r:\0011\022\026\n\010pki_type\030\002 \001(\t:\004none\022\020\n\010pki_",
+      "data\030\003 \001(\014\022\"\n\032serialized_payment_details" +
+      "\030\004 \002(\014\022\021\n\tsignature\030\005 \001(\014\"\'\n\020X509Certifi" +
+      "cates\022\023\n\013certificate\030\001 \003(\014\"z\n\007Payment\022\025\n" +
+      "\rmerchant_data\030\001 \001(\014\022\024\n\014transactions\030\002 \003" +
+      "(\014\0224\n\trefund_to\030\003 \003(\0132!.io.stroem.paymen" +
+      "tprotocol.Output\022\014\n\004memo\030\004 \001(\t\"O\n\nPaymen" +
+      "tACK\0223\n\007payment\030\001 \002(\0132\".io.stroem.paymen" +
+      "tprotocol.Payment\022\014\n\004memo\030\002 \001(\tB+\n\031io.st" +
+      "roem.paymentprotocolB\016StroemPpProtos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -6102,7 +6102,7 @@ public final class StroemPpProtos {
           internal_static_io_stroem_paymentprotocol_PaymentDetails_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_io_stroem_paymentprotocol_PaymentDetails_descriptor,
-              new java.lang.String[] { "Network", "Outputs", "Time", "Expires", "Memo", "PaymentUrl", "MerchantData", "StroemData", });
+              new java.lang.String[] { "Network", "Outputs", "Time", "Expires", "Memo", "PaymentUrl", "MerchantData", "StroemMessage", });
           internal_static_io_stroem_paymentprotocol_PaymentRequest_descriptor =
             getDescriptor().getMessageTypes().get(2);
           internal_static_io_stroem_paymentprotocol_PaymentRequest_fieldAccessorTable = new
