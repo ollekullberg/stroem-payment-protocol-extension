@@ -24,7 +24,7 @@ message PaymentDetails {
     optional string memo = 5;           // Human-readable description of request for the customer
     optional string payment_url = 6;    // URL to send Payment and get PaymentACK
     optional bytes merchant_data = 7;   // Arbitrary data to include in the Payment message
-    optional bytes stroem_data = 100;   // Stroem data
+    optional bytes stroem_message = 1000;   // Stroem Message
 }
 message PaymentRequest {
     optional uint32 payment_details_version = 1 [default = 1];
